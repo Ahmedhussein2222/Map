@@ -1,0 +1,20 @@
+
+background cover for search bar(frame)
+ 
+(comment)
+
+
+
+
+id for all states(link between search bar and map fe el new  map )
+
+map and over lay (mr.wael)
+
+
+
+done:
+responsive
+header full width
+bootstrap folder without cdn
+tanzeem el code
+container-fluild

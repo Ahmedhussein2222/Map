@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <title>خريطة المشروعات القومية</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/mystyle.css">
+      
+      
+    
+  </head>
+    
+  <body>
+
+    <div class="header">
+  <div class="container">
+  	
+  	<div class="row">
+  		<div class="col-md-12">
+  			 		  	 <a href="index-en.html">
+  			 		  	 <img src="img/english-button.png" width="38" height="35"   class="left1">
+  			 		  	 <p id="colorlang" class="left1"> English</p>
+  			 		  	 </a>
+     		  	 <h2 class="text-center">
+     		  	  <img src="img/logo2small.png">  خريطة المشروعات القومية فى مصر </h2>
+  
+  			
+  		</div>
+  	</div>
+  </div>
+   
+  </div>
+   	
+    	
+
+    		<div class="container-fluid">
+    	
+    <div class="row">
+    <div class="col-md-9 ">
+     		
+     		
+     	     
+           	 <div id="map" >
+           	 	
+           	 </div>
+	
+
+     			
+    </div>
+     		
+     		
+      <div class="col-md-3 ">
+      <div class="frame">
+     
+      <h5 class="text-center" style="color:#FFE200; font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'">
+      <img src="img/logo.png" alt="">
+      <br>   خريطة الاستثمار الصناعي في مصر</h5>
+      		
+      		
+      		
+      		      
+      
+        <form action="" method="">
+      <div id="search">
+	
+             <div class="form-group">
+                   
+            <label for="location1"  >بحث عام فى المشروعات</label>
+                   
+         <input id="location1" type="text" class="form-control">
+          </div>
+                 
+</div>
+      	   
+      	     
+      	         <div id="Goverment1">
+	
+             <div class="form-group">
+                   
+            <label for="location2"  >المحافظة</label>
+                       <select id="location2" class="form-control">
+		<option selected="selected" value="0"> جمهورية مصر العربية</option>
+		<option value="97">اسوان</option>
+		<option value="88">اسيوط</option>
+		<option value="3">الاسكندرية</option>
+		<option value="64">الاسماعيلية</option>
+		<option value="95">الاقصر</option>
+		<option value="65">البحر الاحمر</option>
+		<option value="45">البحيرة</option>
+		<option value="21">الجيزة</option>
+		<option value="50">الدقهلية</option>
+		<option value="62">السويس</option>
+		<option value="55">الشرقية</option>
+		<option value="40">الغربية</option>
+		<option value="84">الفيوم</option>
+		<option value="2">القاهرة</option>
+		<option value="13">القليوبية</option>
+		<option value="48">المنوفية</option>
+		<option value="86">المنيا</option>
+		<option value="92">الوادى الجديد</option>
+		<option value="82">بنى سويف</option>
+		<option value="66">بورسعيد</option>
+		<option value="69">جنوب سيناء</option>
+		<option value="57">دمياط</option>
+		<option value="93">سوهاج</option>
+		<option value="68">شمال سيناء</option>
+		<option value="96">قنا</option>
+		<option value="47">كفر الشيخ</option>
+		<option value="46">مطروح</option>
+
+	</select>
+        
+          </div>
+                 
+</div>
+      	
+      		   
+      
+		
+      		
+     <div id="state">
+	
+          <div class="form-group">
+                
+            <label for="type1" class="control-label">القطاع</label>
+                <select id="type1" class="form-control">
+		<option selected="selected" value="0">اختار القطاع</option>
+		<option value="2"> قطاع تعدينية واستغلال مناجم ومحاجر</option>
+		<option value="19"> قطاع جلود</option>
+		<option value="15"> قطاع صناعات دوائية</option>
+		<option value="10"> قطاع صناعات هندسية والكترونية وكهربائية</option>
+		<option value="4"> قطاع غـزل&nbsp;ونســيج&nbsp;وملابــس</option>
+		<option value="7"> قطاع كيماويات&nbsp;اساسيه&nbsp;ومنتجاتها</option>
+		<option value="9"> قطاع معدنية&nbsp;أساســــــــية</option>
+		<option value="3"> قطاع مواد غــذائية ومشروبات وتبغ</option>
+
+	</select>
+
+            
+          </div>
+                   
+</div>
+      		
+      		
+      		
+      		<div id="Projects">
+	
+                   <div class="form-group">
+                         
+            <label for="type2" class="control-label">حجم المشروع</label>
+                          <select  id ="type2" class="form-control">
+		<option selected="selected" value="0">اختار حجم المشروع</option>
+		<option value="Large">كبير</option>
+		<option value="Medium">متوسط</option>
+		<option value="Small">صغير</option>
+		<option value="Micro">متناهى الصغر</option>
+
+	</select>
+
+            
+          </div>
+			</div>
+                
+                
+     <table id="RadioButton" >
+	 <tr>
+     <td>
+		
+	  <input  type="radio" name="RadioButton" value="1" checked="checked">
+		
+	  <label for="RadioButton">&nbsp;  المشروعات</label><br><br>
+	  
+	  	  <button  class="btn btn-danger  button" type="reset" value="Reset" > اعادة</button>	  
+	   
+	  <button  class="btn btn-dark"  type="submit" value="search" >بحث</button>
+	  
+	 
+
+		
+     </td>
+	 </tr>
+	
+	 
+	
+	
+	
+	
+	
+	
+</table>
+      </form>
+           
+</div>
+
+      	</div>
+      </div>
+		</div>
+     	    	
+  <!-- DETAILS OVERLAY-->
+            <section>
+            <div>
+            <div id="fade" class="well terms details">
+            	<div class="container">
+                	<div class="row">
+                        	<div class="col-md-6 text-right">
+                            	<img src="img/pic-project-01.jpg" border="0" class="img-responsive">
+                            </div>
+                            <div class="col-md-6 text-right">
+                            	<h2>إسم المشروع يوضع هنا</h2>
+                                <h4>إسم المحافظة - إسم القطاع - حجم المشروع</h4>
+                            	<p>تفاصيل المشروع توضع هنا، هذا الجزء سيعرض تفاصيل المشروع. فاصيل المشروع توضع هنا، هذا الجزء سيعرض تفاصيل المشروع. فاصيل المشروع توضع هنا، هذا الجزء سيعرض تفاصيل المشروع. فاصيل المشروع توضع هنا، هذا الجزء سيعرض تفاصيل المشروع.</p>
+                                <p>تفاصيل المشروع توضع هنا، هذا الجزء سيعرض تفاصيل المشروع. فاصيل المشروع توضع هنا، هذا الجزء سيعرض تفاصيل المشروع. فاصيل المشروع توضع هنا، هذا الجزء سيعرض تفاصيل المشروع. فاصيل المشروع توضع هنا، هذا الجزء سيعرض تفاصيل المشروع.</p>
+                                <p class="margin-bottom-medium"><a href="#">تحميل الملف (PDF)</a></p>
+                                <!--<p><a href="#">Download PDF document</a></p>-->
+                            	
+                        	</div>
+                	</div>
+                </div>
+                <button class="fade_close">X</button>
+            </div>
+            <!-- /.DETAILS OVERLAY -->
+            
+        </div>
+    </section>
+  
+     	
+    
+   
+
+      
+      
+      
+    
+      
+
+      
+
+      
+      
+<!-- Trigger the modal with a button -->
+
+
+<!-- Modal -->
+
+ 
+      
+      
+      
+      
+     
+    
+      
+  <script>
+        function initMap(){
+          // Map options
+          var options = {
+            zoom:6,
+            center:{lat:30.044281,lng:31.340002}
+          }
+    
+          // New map
+          var map = new google.maps.Map(document.getElementById('map'), options);
+    
+          // Listen for click on map
+         /* google.maps.event.addListener(map, 'click', function(event){
+            // Add marker
+            addMarker({coords:event.latLng});
+          });
+    */
+          /*
+          // Add marker
+          var marker = new google.maps.Marker({
+            position:{lat:42.4668,lng:-70.9495},
+            map:map,
+            icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+          });
+    
+          var infoWindow = new google.maps.InfoWindow({
+            content:'<h1>Lynn MA</h1>'
+          });
+    
+          marker.addListener('click', function(){
+            infoWindow.open(map, marker);
+          });
+          */
+    
+          // Array of markers
+          var markers = [
+            {
+              coords:{lat:29.455753,lng:27.550526},
+              content:'<div class="content"><h3>محافظة مطروح <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:31.33500,lng:30.88000},
+              content:'<div class="content"><h3>محافظة كفر الشيخ <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{
+             coords:{lat:26.15650,lng:32.71500},
+              content:'<div class="content"><h3>محافظة قنا <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:30.54500,lng:33.76000},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة شمال سيناء <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{
+             coords:{lat:26.50960,lng:31.70142},
+              content:'<div class="content"><h3>محافظة سوهاج <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{ 
+             coords:{lat:31.36950,lng:31.78800},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة دمياط <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></ul></div>'
+            },
+			{ 
+              coords:{lat:28.67500,lng:33.96500},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة جنوب سيناء <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{ 
+             coords:{lat:31.16450,lng:32.33800},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة بورسعيد <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></ul></div>'
+            },
+			{ 
+              coords:{lat:29.12000,lng:31.03900},
+              content:'<div class="content"><h3>محافظة بنى سويف <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{
+             coords:{lat:24.70282,lng:28.84042},
+              content:'<div class="content"><h3>محافظة الوادى الجديد <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{
+             coords:{lat:28.08500,lng:30.76000},
+              content:'<div class="content"><h3>محافظة المنيا <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:30.46003,lng:30.91607},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة المنوفية <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></ul></div>'
+            },
+			{
+			  coords:{lat:30.36303,lng:31.23007},
+              content:'<div class="content"><h3>محافظة القليوبية <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></ul></div>'
+            },
+			{  coords:{lat:30.06263,lng:31.24967},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة القاهرة <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></ul></div>'
+            },
+			 { 
+              coords:{lat:29.33000,lng:30.51900},
+              content:'<div class="content"><h3>محافظة الفيوم <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:30.88300,lng:31.03100},
+              content:'<div class="content"><h3>محافظة الغربية <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:30.65300,lng:31.76300},
+              content:'<div class="content"><h3>محافظة الشرقية <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            { 
+              coords:{lat:29.64000,lng:32.33500},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة السويس <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            { 
+             coords:{lat:31.06450,lng:31.73300},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة الدقهلية <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></ul></div>'
+            },
+            { 
+              coords:{lat:29.05500,lng:29.59850},
+              content:'<div class="content"><h3>محافظة الجيزة <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            {
+              coords:{lat:30.650400,lng:30.120300},
+              content:'<div class="content"><h3>محافظة البحيرة <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            {
+             coords:{lat:25.55250,lng:33.48000},
+              content:'<div class="content"><h3>محافظة البحر الاحمر <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            {
+             coords:{lat:25.66950,lng:32.64000},
+              content:'<div class="content"><h3>محافظة الأقصر <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            { 
+              coords:{lat:30.58000,lng:32.27500},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>محافظة الاسماعيلية <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            {
+              coords:{lat:31.205753,lng:29.924526},
+              content:'<div class="content"><h3>محافظة الاسكندرية <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            {
+             coords:{lat:27.12660,lng:31.18042},
+              content:'<div class="content"><h3>محافظة أسيوط <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            },
+            {
+             coords:{lat:24.09082,lng:32.89942},
+              content:'<div class="content"><h3>محافظة أسوان <span>(١٧٠ مشروع)</span></h3><ul class="ul_1"><li><h4>قطاع الجلود</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li><li><a class="fade_open" href="#fade">مستلزمات الغسيل الكلوي</a></li></ol></li></ul></div>'
+            }
+          ];
+    
+          // Loop through markers
+          for(var i = 0;i < markers.length;i++){
+            // Add marker
+            addMarker(markers[i]);
+          }
+    
+          // Add Marker Function
+          function addMarker(props){
+            var marker = new google.maps.Marker({
+              position:props.coords,
+              map:map,
+              //icon:props.iconImage
+            });
+    
+            // Check for customicon
+            if(props.iconImage){
+              // Set icon image
+              marker.setIcon(props.iconImage);
+            }
+    
+            // Check content
+            if(props.content){
+              var infoWindow = new google.maps.InfoWindow({
+                content:props.content
+              });
+    
+              marker.addListener('click', function(){
+                infoWindow.open(map, marker);
+              });
+            }
+          }
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMytJjoupaaB3kHG9ZSMYuxt078-V2CcI&callback=initMap">
+      </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="jswael/jquery.js"></script>
+    <script src="jswael/jquery.popupoverlay.js"></script>
+    <script src="jswael/modernizr.custom.79639.js"></script>
+    
+    
+    
+    	  <script>
+        $(document).ready(function () {
+            $.fn.popup.defaults.pagecontainer = '.container'
+        });
+        </script>
+        
+        <script>
+        $(document).ready(function () {
+        
+            $('#fade').popup({
+              transition: 'all 0.3s',
+              scrolllock: true
+            });
+            
+            $('#fadediv').popup({
+              transition: 'all 0.3s',
+              scrolllock: true
+            });
+        
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<title>
+	Industrial Investment Map of Egypt
+
+</title>    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/mystyle-en.css">
+      
+      
+    
+  </head>
+    
+  <body>
+
+  
+    	
+  <div class="header">
+   		  	 <div class="container">
+   		  	 	<div class="row">
+   		  	 	<div class="col-12">
+   		  	 		
+   		  	 		
+   		  	 	 <a href="index.html">
+   		  	 	 <img src="img/arabic.png" width="38" height="35"   class="right1">
+   		  	 	 <p id="colorlang" class="right1">Arabic </p>
+   		  	 	 </a>
+     		  	 <h3 class="text-center"> 
+     		  	 <img src="img/logo2small.png">Industrial Investment Map of Egypt 
+     		  	 </h3>
+   		  	 		
+   		  	 	</div>
+   		  	 </div>
+   		  	 </div>
+    		  
+  </div>
+  
+   <div class="container-fluid">
+    	
+    <div class="row">
+ 
+     		
+      <div class="col-md-3">
+      <div class="frame">
+     
+      <h5 class="text-center" style="color:#FFE200; font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'">
+      <img src="img/logo.png" alt="">
+      <br>   Industrial Investment Map of Egypt    </h5>
+      		
+      		
+      		
+      		      
+      
+        <form action="" method="">
+      <div id="search">
+	
+             <div class="form-group">
+                   
+            <label for="location1"  >  Searh for a project: </label>
+                   
+         <input id="location1" type="text" class="form-control">
+          </div>
+                 
+</div>
+      	   
+      	     
+      	         <div id="Goverment1">
+	
+             <div class="form-group">
+                   
+            <label for="location2"  >Select Governorate:</label>
+                       <select id="location2" class="form-control">
+		<option selected="selected" value="0"> Arab Repuplic of Egypt </option>
+		<option value="97">Aswan</option>
+		<option value="88">asyut</option>
+		<option value="3">alexandria</option>
+		<option value="64">ismailia</option>
+		<option value="95">luxor</option>
+		<option value="65">red sea </option>
+		<option value="45">Beheira </option>
+		<option value="21">Giza</option>
+		<option value="50">Dakahlia</option>
+		<option value="62">Suez</option>
+		<option value="55">Sharqia</option>
+		<option value="40">Gharbia</option>
+		<option value="84">Faiyum</option>
+		<option value="2">Cairo</option>
+		<option value="13">Qalyubia</option>
+		<option value="48">Monufia</option>
+		<option value="86">Minya</option>
+		<option value="92">New Valley </option>
+		<option value="82">Beni Suef </option>
+
+		<option value="66">Port Said</option>
+
+		<option value="69">South Sinai  </option>
+		<option value="57">Damietta</option>
+
+		<option value="93">Sohag</option>
+		<option value="68">North Sinai </option>
+		<option value="96">Qena</option>
+		<option value="47">Kafr El Sheikh </option>
+		<option value="46">Mersa Matruh</option>
+
+	</select>
+        
+          </div>
+                 
+</div>
+      	
+      		   
+      
+		
+      		
+     <div id="Sector">
+	
+          <div class="form-group">
+                
+            <label for="type1" class="control-label">Select Sector:</label>
+                <select id="type1" class="form-control">
+		<option selected="selected" value="0">Choose secctor </option>
+		<option value="2"> Electrical,Elctronic& Engineering industrie    </option>
+		<option value="19"> Essential Chemicals& Products </option>
+		<option value="15">  Essential Minerals </option>
+		<option value="10"> Foods, Beverages & Tobacco    </option>
+		<option value="4">  Leather</option>
+		<option value="7">  Mining& Mines & Quarries</option>
+		<option value="9">  Pharmaceutical</option>
+		<option value="3"> spinning& Weaving & Ready-Made Garments    </option>
+
+	</select>
+
+            
+          </div>
+                   
+</div>
+      		
+      		
+      		
+      		<div id="Projects">
+	
+                   <div class="form-group">
+                         
+            <label for="type2" class="control-label">Select project size: </label>
+                          <select  id ="type2" class="form-control">
+		<option selected="selected" value="0">Choose project size  </option>
+		<option value="Large">Large</option>
+		<option value="Medium">Medium</option>
+		<option value="Small">small</option>
+		<option value="Micro projects ">Micro Projects </option>
+
+
+	</select>
+
+            
+          </div>
+			</div>
+                
+                
+     <table id="RadioButton" >
+	 <tr>
+     <td>
+		
+	  <input  type="radio" name="RadioButton" value="1" checked="checked">
+		
+	  <label for="RadioButton">&nbsp;  Projects</label><br><br>
+		 <button  class="btn btn-danger  button" type="reset" value="Reset" >Reset</button>
+		 <button  class="btn btn-dark"  type="submit" value="search" >search</button>
+    
+     </td>
+      
+	 </tr>
+	
+	
+	
+		
+	
+</table>
+      </form>
+           
+</div>
+
+      	</div>
+      	   <div class="col-md-9">
+     		
+     		
+     	     
+           	 <div id="map" ></div>
+	
+
+     			
+    </div>
+     		
+      </div>
+      
+         
+            <!-- DETAILS OVERLAY-->
+            <section>
+            <div>
+            <div id="fade" class="well terms details">
+            	<div class="container">
+                	<div class="row">
+                        	<div class="col-md-6 text-right">
+                            	<img src="img/pic-project-01.jpg" border="0" class="img-responsive">
+                            </div>
+                            <div class="col-md-6 text-right">
+                            	<h2>Project Name Goes Here</h2>
+                                <h4>Governorate - Sector - Project size</h4>
+                            	<p>Project details should be displayed here in this section, this section will display project details. Project details should be displayed here in this section, this section will display project details. Project details should be displayed here, this section will display project details.</p>
+                                <p>Project details should be displayed here in this section, this section will display project details. Project details should be displayed here in this section, this section will display project details. Project details should be displayed here, this section will display project details.</p>
+                                <p class="margin-bottom-medium"><a href="#">Download PDF document</a></p>
+                            	
+                        	</div>
+                	</div>
+                </div>
+                <button class="fade_close">X</button>
+            </div>
+            <!-- /.DETAILS OVERLAY -->
+            
+        </div>
+        </section>
+      
+		</div>
+     	    	
+
+     	
+    
+   
+
+      
+      
+      
+    
+      
+
+      
+
+      
+      
+<!-- Trigger the modal with a button -->
+
+
+<!-- Modal -->
+
+ 
+   <script>
+        function initMap(){
+          // Map options
+          var options = {
+            zoom:6,
+            center:{lat:30.044281,lng:31.340002}
+          }
+    
+          // New map
+          var map = new google.maps.Map(document.getElementById('map'), options);
+    
+          // Listen for click on map
+         /* google.maps.event.addListener(map, 'click', function(event){
+            // Add marker
+            addMarker({coords:event.latLng});
+          });
+    */
+          /*
+          // Add marker
+          var marker = new google.maps.Marker({
+            position:{lat:42.4668,lng:-70.9495},
+            map:map,
+            icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+          });
+    
+          var infoWindow = new google.maps.InfoWindow({
+            content:'<h1>Lynn MA</h1>'
+          });
+    
+          marker.addListener('click', function(){
+            infoWindow.open(map, marker);
+          });
+          */
+    
+          // Array of markers
+          var markers = [
+            {
+              coords:{lat:29.455753,lng:27.550526},
+              content:'<div class="content"><h3>Matrouh Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:31.33500,lng:30.88000},
+              content:'<div class="content"><h3>Kafr ElSheikh Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{
+             coords:{lat:26.15650,lng:32.71500},
+              content:'<div class="content"><h3>Qena Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:30.54500,lng:33.76000},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>North Sinai Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{
+             coords:{lat:26.50960,lng:31.70142},
+              content:'<div class="content"><h3>Sohag Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{ 
+             coords:{lat:31.36950,lng:31.78800},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>Damietta Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></ul></div>'
+            },
+			{ 
+              coords:{lat:28.67500,lng:33.96500},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>South Sinai Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{ 
+             coords:{lat:31.16450,lng:32.33800},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>Portsaid Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></ul></div>'
+            },
+			{ 
+              coords:{lat:29.12000,lng:31.03900},
+              content:'<div class="content"><h3>Bani Suif Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{
+             coords:{lat:24.70282,lng:28.84042},
+              content:'<div class="content"><h3>ElWadi ElGedid Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{
+             coords:{lat:28.08500,lng:30.76000},
+              content:'<div class="content"><h3>Menia Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:30.46003,lng:30.91607},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>Menofia Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></ul></div>'
+            },
+			{
+			  coords:{lat:30.36303,lng:31.23007},
+              content:'<div class="content"><h3>Qalubia Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></ul></div>'
+            },
+			{  coords:{lat:30.06263,lng:31.24967},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>Cairo Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></ul></div>'
+            },
+			 { 
+              coords:{lat:29.33000,lng:30.51900},
+              content:'<div class="content"><h3>Fayoum Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:30.88300,lng:31.03100},
+              content:'<div class="content"><h3>Gharbia Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+			{ 
+              coords:{lat:30.65300,lng:31.76300},
+              content:'<div class="content"><h3>Sharkia Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            { 
+              coords:{lat:29.64000,lng:32.33500},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>Suiz Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            { 
+             coords:{lat:31.06450,lng:31.73300},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>Daqahlia Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات هندسية والكترونية وكهربائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع تعدينية واستغلال مناجم ومحاجر</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>قطاع صناعات دوائية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع غـزل ونســيج وملابــس</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع كيماويات اساسيه ومنتجاتها</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع معدنية أساسية</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol><li><h4>قطاع مواد غــذائية ومشروبات وتبغ</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></ul></div>'
+            },
+            { 
+              coords:{lat:29.05500,lng:29.59850},
+              content:'<div class="content"><h3>Giza Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            {
+              coords:{lat:30.650400,lng:30.120300},
+              content:'<div class="content"><h3>Behaira Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            {
+             coords:{lat:25.55250,lng:33.48000},
+              content:'<div class="content"><h3>Red Sea Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            {
+             coords:{lat:25.66950,lng:32.64000},
+              content:'<div class="content"><h3>Luxor Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            { 
+              coords:{lat:30.58000,lng:32.27500},
+              //iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+              content:'<div class="content"><h3>Ismailia Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            {
+              coords:{lat:31.205753,lng:29.924526},
+              content:'<div class="content"><h3>Alexandria Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            {
+             coords:{lat:27.12660,lng:31.18042},
+              content:'<div class="content"><h3>Asyut Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            },
+            {
+             coords:{lat:24.09082,lng:32.89942},
+              content:'<div class="content"><h3>Aswan Governorate <span>(170 projects)</span></h3><ul class="ul_1"><li><h4>Electrical, Electronic &amp; Engineering Industries</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Chemicals &amp; Products</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li><li><h4>Essential Minerals</h4><ol><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li><li><a class="fade_open" href="#fade">Manufacture of Wooden Furniture</a></li></ol></li></ul></div>'
+            }
+          ];
+    
+          // Loop through markers
+          for(var i = 0;i < markers.length;i++){
+            // Add marker
+            addMarker(markers[i]);
+          }
+    
+          // Add Marker Function
+          function addMarker(props){
+            var marker = new google.maps.Marker({
+              position:props.coords,
+              map:map,
+              //icon:props.iconImage
+            });
+    
+            // Check for customicon
+            if(props.iconImage){
+              // Set icon image
+              marker.setIcon(props.iconImage);
+            }
+    
+            // Check content
+            if(props.content){
+              var infoWindow = new google.maps.InfoWindow({
+                content:props.content
+              });
+    
+              marker.addListener('click', function(){
+                infoWindow.open(map, marker);
+              });
+            }
+          }
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMytJjoupaaB3kHG9ZSMYuxt078-V2CcI&callback=initMap">
+      </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="jswael/jquery.js"></script>
+    <script src="jswael/jquery.popupoverlay.js"></script>
+    <script src="jswael/modernizr.custom.79639.js"></script>
+    
+    
+    
+          
+	  <script>
+        $(document).ready(function () {
+            $.fn.popup.defaults.pagecontainer = '.container'
+        });
+        </script>
+        
+        <script>
+        $(document).ready(function () {
+        
+            $('#fade').popup({
+              transition: 'all 0.3s',
+              scrolllock: true
+            });
+            
+            $('#fadediv').popup({
+              transition: 'all 0.3s',
+              scrolllock: true
+            });
+        
+        });
+      </script>
+  </body>
+</html>
